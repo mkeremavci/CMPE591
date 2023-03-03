@@ -1,0 +1,17 @@
+name: CMPE591
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.12
+  - pip
+  - pytorch=1.11.*
+  - torchvision=0.12.*
+  - cudatoolkit=11.3.*
+  - numpy
+  - pyyaml
+  - dm_control
+  - tqdm
+  - pip:
+    - git+https://github.com/alper111/mujoco-python-viewer.git
